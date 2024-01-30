@@ -1,3 +1,5 @@
+# This file demonstrates a brute force method O(N^2)
+
 import sys
 
 

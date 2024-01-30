@@ -10,11 +10,12 @@ Organization:
 ## Team Members
 Grant Didway
 Steven Lin
+Aidan Von Buchwaldt
 
 ## Team Roles
 Who will start out as
 * DRIVER: Grant
-* NAVIGATOR: Steven
+* NAVIGATOR: Steven, Aidan
 
 You will switch halfway through the _SDX Ch. 3_ activity.
 
