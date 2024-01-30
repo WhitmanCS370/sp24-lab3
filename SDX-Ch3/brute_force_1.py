@@ -10,6 +10,8 @@ def same_bytes(left_name, right_name):
 
 
 # [main]
+# this runs in N^2 time. It has a flaw: where it may examine a file against itself.
+# scopes inner loop to avoid this
 def find_duplicates(filenames):
     matches = []
     for left in filenames:
