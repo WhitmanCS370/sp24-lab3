@@ -2,7 +2,7 @@ import sys
 from hashlib import sha256
 
 def find_groups(filenames):
-    creates a dictionary groups
+    #creates a dictionary groups
     groups = {}
     #for each file in filenames
     for fn in filenames:
