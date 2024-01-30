@@ -8,7 +8,8 @@ Organization:
 * TeamActivities: Has the code files for the command line activity (cli_example.py), the simpleaudio activity (simpleaudio_test.py), and two sample .wav audio files in the sounds subfolder.
 
 ## Team Members
-Enter your names here
+Marlyn Estrada
+Chris Gomez
 
 ## Team Roles
 Who will start out as
