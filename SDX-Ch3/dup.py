@@ -8,6 +8,8 @@ def find_groups(filenames):
     for fn in filenames:
         data = open(fn, "rb").read()
         hash_code = sha256(data).hexdigest()
+        if hash_code in open("output.txt").read():
+            print("duplicate")
         output.write(str(hash_code) + "\n")
         if hash_code not in groups:
             groups[hash_code] = set()
