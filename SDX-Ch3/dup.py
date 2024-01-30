@@ -1,8 +1,10 @@
 import sys
 from hashlib import sha256
 
+
 def find_groups(filenames):
     groups = {}
+    # keep list of groups
     for fn in filenames:
         data = open(fn, "rb").read()
         hash_code = sha256(data).hexdigest()
