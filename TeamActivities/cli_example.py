@@ -43,7 +43,7 @@ if argvlen<=1 or sys.argv[1]=='--help' or sys.argv[1]=='-h':
     print("usage:",sys.argv[0], '--help')
 
     # Note that it is proper hygiene to have this at the end of each
-    sys.exit(0);
+    sys.exit(0)
 
 '''
 # HELP: This is another command line argument, invoked by typing --count or -c.
@@ -76,7 +76,10 @@ For now, just have it print out the statement:
 (You'll add in the ability to actually play in the next step.)
 '''
 
-# ADD YOUR CODE FOR PLAY HERE
+if sys.argv[1] == "--play" or sys.argv[1]=="-p":
+    print("I am now playing", sys.argv[2])
+    sys.exit(0)
+
 
 
 '''
