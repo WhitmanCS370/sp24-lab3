@@ -1,4 +1,5 @@
 import sys
+import os
 from hashlib import sha256
 
 def find_groups(filenames):
