@@ -13,8 +13,8 @@ Chris Gomez
 
 ## Team Roles
 Who will start out as
-* DRIVER: Driver's name
-* NAVIGATOR: Navigator's name
+* DRIVER: CHris
+* NAVIGATOR: Marlyn
 
 You will switch halfway through the _SDX Ch. 3_ activity.
 
@@ -23,7 +23,9 @@ You will switch halfway through the _SDX Ch. 3_ activity.
 Write your answers to the questions below.
 
 * What were the main ideas from each chapter?
+  * First were introduced to brute force in finding duplicates and evolved to higher efficency using hashing. We looked into some hash algorithms like using utf-8 encoding on each string to sort into buckets or using SHA-256 to encode it     based on it's algorithm.
 * What questions did you have about the material in the chapters? What did you find confusing?
+  * We discussed our skeptism of 50% chance of 2 people in a group of 20 having the same bday.   
 
 After you've modified/remixed the code, write a summary of what you did and why below:
 
