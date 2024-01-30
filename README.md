@@ -31,6 +31,6 @@ After you've modified/remixed the code, write a summary of what you did and why 
 
 After you've worked on the exercises, write a summary of what you did and why below:
 
-
+We got to exercise 2 and we had a working idea for exercise 2 but not enough time to implement. 
 
 
