@@ -1,3 +1,5 @@
+# This file gives us an example of how to use one of Pythons built-in cryptographic hashing functions
+
 from hashlib import sha256
 
 if __name__ == "__main__":

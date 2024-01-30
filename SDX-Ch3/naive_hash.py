@@ -1,3 +1,7 @@
+# A naive hashing implementation (Improvement from O(N^2) but still not O(N)
+
+# Note that 0 bin will be overpopulated due to spacing not being accounted for.
+
 # [hash]
 def naive_hash(data):
     return sum(data) % 13
