@@ -4,7 +4,6 @@ from hashlib import sha256
 
 def find_groups(filenames):
     groups = {}
-    # os.system("touch output.txt")
     output = open("output.txt", 'w')
     for fn in filenames:
         data = open(fn, "rb").read()
