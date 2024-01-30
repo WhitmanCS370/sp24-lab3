@@ -8,12 +8,13 @@ Organization:
 * TeamActivities: Has the code files for the command line activity (cli_example.py), the simpleaudio activity (simpleaudio_test.py), and two sample .wav audio files in the sounds subfolder.
 
 ## Team Members
-Enter your names here
+Grant Didway
+Steven Lin
 
 ## Team Roles
 Who will start out as
-* DRIVER: Driver's name
-* NAVIGATOR: Navigator's name
+* DRIVER: Grant
+* NAVIGATOR: Steven
 
 You will switch halfway through the _SDX Ch. 3_ activity.
 
@@ -22,7 +23,11 @@ You will switch halfway through the _SDX Ch. 3_ activity.
 Write your answers to the questions below.
 
 * What were the main ideas from each chapter?
+ - Chapter 3 was concerned with optimizing file comparisons (identifying duplicates) using hashing. 
+ - Using a cryptographic hashing function, we can go from O(N^2) to O(N) time complexity.
+
 * What questions did you have about the material in the chapters? What did you find confusing?
+- What does the cryptographic hashing function we used built-in from python look like behind the scenes
 
 After you've modified/remixed the code, write a summary of what you did and why below:
 
