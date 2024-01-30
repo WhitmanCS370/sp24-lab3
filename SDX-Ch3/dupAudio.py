@@ -28,5 +28,5 @@ def find_groups(filenames):
 if __name__ == "__main__":
     f = open("known_files.txt", "a")
     groups = find_groups(sys.argv[1:])
-    for filenames in groups.values():
-        f.write(groups[hash_code])
+    for file in filenames:
+        f.write(groups.values())
