@@ -26,7 +26,7 @@ def find_groups(filenames):
 
 # relates to if the dup.py is being imported into another file.
 if __name__ == "__main__":
+    f = open("known_files.txt", "a")
     groups = find_groups(sys.argv[1:])
-    for filenames in groups.values():
-        print(", ".join(sorted(filenames)))
-
+    for file in filenames:
+        f.write(groups.values())
