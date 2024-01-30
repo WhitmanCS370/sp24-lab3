@@ -1,6 +1,10 @@
 import sys
 from hashlib import sha256
 
+def txt_to_dict(file):
+    pass
+
+
 def find_groups(filenames):
     groups = {}
     for fn in filenames:
@@ -14,6 +18,12 @@ def find_groups(filenames):
 
 if __name__ == "__main__":
     groups = find_groups(sys.argv[1:])
-    for filenames in groups.values():
-        print(", ".join(sorted(filenames)))
+    file_object = open(r"known_files.txt", "w")
+
+    for hash in groups.keys():
+        file_object.write(hash + "\n")
+        for each in groups[hash]:
+            file_object.write(each + "\n")
+        file_object.write("\n")
+    #    print(", ".join(sorted(filenames)))
 

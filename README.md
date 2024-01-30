@@ -8,7 +8,7 @@ Organization:
 * TeamActivities: Has the code files for the command line activity (cli_example.py), the simpleaudio activity (simpleaudio_test.py), and two sample .wav audio files in the sounds subfolder.
 
 ## Team Members
-Enter your names here
+Molly Halverson Rhys Sorenson-Graff
 
 ## Team Roles
 Who will start out as
@@ -28,6 +28,12 @@ After you've modified/remixed the code, write a summary of what you did and why 
 
 After you've worked on the exercises, write a summary of what you did and why below:
 
+## Exercise 1:
+python SDX-Ch3/dup.py sounds/*.wav
+
+We found two duplicates (coffee-slurp-6 and coffee).
+
+## Exercise 2:
 
 
 
