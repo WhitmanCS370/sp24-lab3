@@ -27,6 +27,7 @@ Write your answers to the questions below.
   "sys.argv[1:]" appeared repeatedly, but what does it mean?
 
 After you've modified/remixed the code, write a summary of what you did and why below:
+We removed all of the out files and annotated dup.py to explain the specific steps of the algorithm.
 
 
 After you've worked on the exercises, write a summary of what you did and why below:
