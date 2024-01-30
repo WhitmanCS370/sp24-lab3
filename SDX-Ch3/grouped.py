@@ -21,6 +21,11 @@ def find_duplicates(filenames):
 
 # [group]
 def find_groups(filenames):
+    """
+    find duplicates using the shah 256 hash by hashing the file and comparing it to 
+    previuosly hashed files
+    Returns gruops of files
+    """
     groups = {}
     for fn in filenames:
         data = open(fn, "rb").read()
