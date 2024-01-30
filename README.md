@@ -30,7 +30,7 @@ After you've modified/remixed the code, write a summary of what you did and why 
 <!-- 1. We can delete shell files because they won't work on any system that doesn't have a Bash. We can just run the python file instead and pass it a CL argument. It can clean up the amount of files available and create less clutter and confusion.
 2. We commented naive_hash.py and using_sha256.py to make the code more understandable. We can implement the same idea to every other file but it would take too much time so we just did it in those 2 files for a preview.-->
 After you've worked on the exercises, write a summary of what you did and why below:
-
+<!-- We have completed Exercise 1 and Exercise 2. For exercise 1, we ran the python file with .wav files and were able to successfully execute it. For exercise 2 we modified dup.py to write into a known_files.txt and then afterward we create a modified dup.py -> Mdup.py where we copeid the code from dup.py but also created a new function which checks for requirements of Part 2 of Exercise 2. We were able to identify that coffee.wav already exists and it can be seen by running the file. -->
 
 
 
