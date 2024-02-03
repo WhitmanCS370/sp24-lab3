@@ -1,0 +1,29 @@
+This file describes the layout/callpath of the other files in this directory.
+
+    (turns out there is no callpath. nice! but then why are these all in one big directory?)
+
+highlights: dup.py
+
+---- brute_force_1.py (with output_files/brute_force_1.out) -------------------
+
+    This file is an intentionally bad example of how to detect duplicate
+    files in a directory. See the file itself for running instructions,
+    including command line arguments.
+
+---- brute_force_2.py (with output_files/brute_force_2.out) -------------------
+
+    This file is a better implementation of a brute-force method to detect
+    duplicate files. See the file for running instructions, including
+    command line arguments
+
+!!-- dup.py -------------------------------------------------------------------
+
+    Good example of how to use sha256 hashing, in this case to detect duplicate
+    files. File includes running instructions
+
+---- naive_hash.py ------------------------------------------------------------
+
+    A simple hashing algorithm that hashes any data that can be summed.
+    Intentionally simple, not meant to be used in any serious code.
+
+... you get the idea
