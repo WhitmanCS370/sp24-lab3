@@ -1,6 +1,5 @@
 import sys
 
-
 # [bytes]
 def same_bytes(left_name, right_name):
     left_bytes = open(left_name, "rb").read()
@@ -10,6 +9,7 @@ def same_bytes(left_name, right_name):
 
 
 # [main]
+# this is an intentionally bad example. it is not meant to work.
 def find_duplicates(filenames):
     matches = []
     for left in filenames:
@@ -18,7 +18,7 @@ def find_duplicates(filenames):
                 matches.append((left, right))
     return matches
 
-
+# call from command line with each file to parse as an argument.
 if __name__ == "__main__":
     duplicates = find_duplicates(sys.argv[1:])
     for (left, right) in duplicates:

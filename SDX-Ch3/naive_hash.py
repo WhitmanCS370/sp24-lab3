@@ -3,6 +3,8 @@ def naive_hash(data):
     return sum(data) % 13
 # [/hash]
 
+
+# prints out the hash result of different substrings of the string "hashing"
 if __name__ == "__main__":
     # [example]
     example = bytes("hashing", "utf-8")
@@ -12,5 +14,9 @@ if __name__ == "__main__":
         print(f"{hash:2} {substring}")
     # [/example]
 
+# what is this? when is it called? removing until someone makes a case for it
+# (or something breaks lol)
+'''
 result = naive_hash(bytes("what", "utf-8"))
 print(result)
+'''

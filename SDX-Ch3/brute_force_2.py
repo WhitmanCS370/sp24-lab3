@@ -8,6 +8,7 @@ def same_bytes(left_name, right_name):
 
 
 # [dup]
+# TODO Comment what this function does
 def find_duplicates(filenames):
     matches = []
     for i_left in range(len(filenames)):
@@ -19,7 +20,7 @@ def find_duplicates(filenames):
     return matches
 # [/dup]
 
-
+# call from command line with each file to parse as an argument.
 if __name__ == "__main__":
     duplicates = find_duplicates(sys.argv[1:])
     for (left, right) in duplicates:
