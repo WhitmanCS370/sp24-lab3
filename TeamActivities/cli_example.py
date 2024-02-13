@@ -11,6 +11,8 @@ Optionally, additional arguments may come after the name of the program, those a
 '''
 
 import sys
+import simpleaudio as sa
+from simpleaudio_test import play
 argvlen = len(sys.argv)
 
 '''
@@ -77,12 +79,17 @@ For now, just have it print out the statement:
 '''
 
 # ADD YOUR CODE FOR PLAY HERE
-
+if (sys.argv[1] == '-p' or sys.argv == '--play') and argvlen >=3:
+        for sound in sys.argv[2:]:
+            play(sound)
+            print(f"I am now done playing {sound}")
+        sys.exit(0)
 
 '''
 This goes at the end of all of your if statements and it lets you know if you have 
-unknown or unaddressed command line arguments.
+unknown or unaddressed command line argumen     ts.
 '''
 print(sys.argv[0], "error, unexpected arguments ", sys.argv[1:],file=sys.stderr)
 
 sys.exit(1)
+# END OF FILE
