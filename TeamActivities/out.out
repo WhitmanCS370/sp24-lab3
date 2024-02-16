@@ -1,0 +1,11 @@
+sys.argv:  ['cli_example.py', '-p', '../sounds/coffee-slurp-2.wav', '../sounds/coffee-slurp-3.wav', '../sounds/coffee-slurp-4.wav', '../sounds/coffee-slurp-5.wav', '../sounds/coffee-slurp-6.wav', '../sounds/coffee-slurp-7.wav', '../sounds/coffee-slurp-8.wav', '../sounds/coffee.wav', '../sounds/toaster-2.wav', '../sounds/toaster.wav']
+I am now done playing ../sounds/coffee-slurp-2.wav
+I am now done playing ../sounds/coffee-slurp-3.wav
+I am now done playing ../sounds/coffee-slurp-4.wav
+I am now done playing ../sounds/coffee-slurp-5.wav
+I am now done playing ../sounds/coffee-slurp-6.wav
+I am now done playing ../sounds/coffee-slurp-7.wav
+I am now done playing ../sounds/coffee-slurp-8.wav
+I am now done playing ../sounds/coffee.wav
+I am now done playing ../sounds/toaster-2.wav
+I am now done playing ../sounds/toaster.wav
